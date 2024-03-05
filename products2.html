@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products JSON</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <style>
+        /* Add your CSS styles here */
+        .product-info {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .product-info h2 {
+            margin-top: 0;
+        }
+        .product-info p {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="product-container"></div>
+
+    <script>
+        $(document).ready(function() {
+            $.get("products.json", function(data) {
+                var products = data.products;
+                var productContainer = document.getElementById("product-container");
+
+                // Create HTML markup for each product
+                var html = "";
+                products.forEach(function(product) {
+                    html += `
+                        <div class="product-info">
+                            <h2>${product.name}</h2>
+                            <p>${product.description}</p>
+                            <p>Price: ${product.price}</p>
+                            <p>Categories: ${product.categories.join(", ")}</p>
+                        </div>
+                    `;
+                });
+
+                // Set the HTML content of the productContainer
+                productContainer.innerHTML = html;
+            });
+        });
+    </script>
+</body>
+</html>

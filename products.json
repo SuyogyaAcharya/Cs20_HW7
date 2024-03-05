@@ -1,0 +1,71 @@
+{
+    "products": [
+      {
+        "name": "Vintage T-shirt",
+        "description": "Tie-die Grateful Dead T-shirt",
+        "price": "$35",
+        "categories": ["clothing", "vintage"]
+      },
+      {
+        "name": "Wireless Bluetooth HeadPhones",
+        "description": "High-quality sound, noise-canceling",
+        "price": "$50",
+        "categories": ["electronics", "audio"]
+      },
+      {
+        "name": "Organic Green Tea",
+        "description": "Loose leaf, Tasty",
+        "price": "$10",
+        "categories": ["food", "beverages", "organic"]
+      },
+      {
+        "name": "Fake Leather Messenger Bag",
+        "description": "Handcrafted not real leather",
+        "price": "$120",
+        "categories": ["clothing", "accessories"]
+      },
+      {
+        "name": "Smartphone",
+        "description": "High-resolution display, Wireless Charging, 5G",
+        "price": "$800",
+        "categories": ["electronics", "mobile"]
+      },
+      {
+        "name": "Organic Avocado",
+        "description": "Fresh, ripe and organic avocado",
+        "price": "$2",
+        "categories": ["food", "organic"]
+      },
+      {
+        "name": "Yoga ball",
+        "description": "Bouncy, with durable material",
+        "price": "$30",
+        "categories": ["fitness", "accessories"]
+      },
+      {
+        "name": "Laptop Backpack",
+        "description": "Water-resistant, Lightweight",
+        "price": "$50",
+        "categories": ["electronics", "accessories"]
+      },
+      {
+        "name": "Classic Blue Jeans",
+        "description": "Comfortable and Stylish",
+        "price": "$45",
+        "categories": ["clothing", "denim"]
+      },
+      {
+        "name": "Portable Blender",
+        "description": "Blend smoothies anywhere you want",
+        "price": "$40",
+        "categories": ["electronics", "kitchen"]
+      },
+      {
+        "name": "Soccer Cleats",
+        "description": "Lightweight cleats for running on turf",
+        "price": "$80",
+        "categories": ["footwear", "fitness"]
+      }
+    ]
+  }
+  
